@@ -13,7 +13,7 @@ Producer (Simulation) : Un script Python simule un flux de données en direct vi
 Processor (Streaming) : Spark Structured Streaming charge le modèle entraîné, écoute le flux, prédit le sentiment (Positif/Négatif) et affiche le résultat en temps réel.
 
 📂 Structure du Projet
-
+```
 Twitter_sentiment_analysis/
 ├── data/               # Dossier pour les datasets (non inclus sur GitHub)
 ├── models/             # Dossier de sauvegarde du modèle Pipeline
@@ -26,7 +26,7 @@ Twitter_sentiment_analysis/
 ├── .gitignore          # Fichiers à ignorer par Git
 ├── requirements.txt    # Liste des dépendances Python
 └── README.md           # Documentation du projet
-
+```
 
 🛠 Prérequis
 
