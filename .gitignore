@@ -1,0 +1,31 @@
+# Ignorer l'environnement virtuel
+.venv/
+venv/
+env/
+
+# Ignorer les fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Ignorer les données (trop lourd pour GitHub)
+data/*.csv
+data/*.zip
+data/test_data_split.csv/
+
+# Ignorer le cache Kaggle
+.cache/
+
+# Ignorer le modèle entraîné (car on peut le régénérer avec training.py)
+models/
+# Si vous voulez quand même garder la structure des dossiers mais pas les fichiers :
+!models/.gitkeep
+
+# Ignorer les fichiers logs et checkpoints de Spark
+spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+
+# Paramètres IDE
+.vscode/
+.idea/
