@@ -1,5 +1,5 @@
 
-```md
+
 # Twitter Sentiment Analysis avec PySpark 🚀
 
 Un pipeline Big Data complet pour l'analyse de sentiment en temps réel sur des flux de tweets, utilisant **Apache Spark Structured Streaming** et l'algorithme **Naive Bayes**.
@@ -8,7 +8,9 @@ Un pipeline Big Data complet pour l'analyse de sentiment en temps réel sur des 
 
 ## 🏗 Architecture du Projet
 
-![Architecture du Pipeline Big Data](./assets/architecture.png)
+<div align="center">
+  <img src="assets/architecture.png" alt="Architecture Big Data" width="100%">
+</div>
 
 Le projet suit une architecture Lambda simplifiée pour le traitement en temps réel :
 
@@ -20,7 +22,7 @@ Le projet suit une architecture Lambda simplifiée pour le traitement en temps r
 
 ## 📂 Structure du Projet
 
-
+```
 Twitter_sentiment_analysis/
 ├── data/               # Dossier pour les datasets (non inclus sur GitHub)
 ├── models/             # Dossier de sauvegarde du modèle Pipeline
