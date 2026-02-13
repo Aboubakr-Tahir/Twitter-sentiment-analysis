@@ -1,4 +1,3 @@
-Here's your text formatted cleanly in Markdown for a `README.md` file:
 
 ```md
 # Twitter Sentiment Analysis avec PySpark 🚀
@@ -8,6 +7,8 @@ Un pipeline Big Data complet pour l'analyse de sentiment en temps réel sur des 
 ---
 
 ## 🏗 Architecture du Projet
+
+![Architecture du Pipeline Big Data](./assets/architecture.png)
 
 Le projet suit une architecture Lambda simplifiée pour le traitement en temps réel :
 
